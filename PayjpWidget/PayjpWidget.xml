@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="PayjpWidget.widget.PayjpWidget" offlineCapable="true" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>PayjpWidget</name>
+  <description>PayjpWidget see PAYJP https://pay.jp/</description>
+  <icon></icon>
+  <properties>
+    <property key="token" type="attribute" required="true">
+      <caption>Token Inputbox</caption>
+      <category>Properties</category>
+      <description>TextBox to be set Token</description>
+      <attributeTypes>
+        <attributeType name="String" />
+      </attributeTypes>
+    </property>
+    <property key="key" type="string" required="true">
+      <caption>Payjp data-key</caption>
+      <category>Properties</category>
+      <description>PAYJP public key</description>
+    </property>
+    <property key="text" type="string" required="false">
+      <caption>Payjp data-text</caption>
+      <category>Properties</category>
+      <description>PAYJP button text</description>
+    </property>
+    <property key="submittext" type="string" required="false">
+      <caption>Payjp data-submit-text</caption>
+      <category>Properties</category>
+      <description>PAYJP submit button text</description>
+    </property>
+  </properties>
+</widget>
